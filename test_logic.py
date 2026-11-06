@@ -1,9 +1,9 @@
-from logic import greet
+from logic import add
 
-def test_greet_name():
+def test_add():
 
-	assert greet("Rahim") == "Hello Rahim"
+	assert add(2,3) == 5
 
-def test_greet_empty():
+def test_add_negative():
 
-	assert greet("") == "Hello "
+	assert add(-4,1) == -3
