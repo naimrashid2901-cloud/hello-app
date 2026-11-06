@@ -1,5 +1,9 @@
 from logic import greet
 
-def test_greet():
+def test_greet_name():
 
-	assert greet() == "Hello world"
+	assert greet("Rahim") == "Hello Rahim"
+
+def test_greet_empty():
+
+	assert greet("") == "Hello "

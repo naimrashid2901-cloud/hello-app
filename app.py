@@ -1,7 +1,5 @@
-import streamlit as st
+name = st.text_input("Your name")
 
-from logic import greet
+if name:
 
-st.title("Hello App")
-
-st.write(greet())
+	st.write(greet(name))
