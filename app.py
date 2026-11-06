@@ -1,5 +1,4 @@
-name = st.text_input("Your name")
+a = st.number_input("First number")
+b = st.number_input("Second number")
 
-if name:
-
-	st.write(greet(name))
+st.write(f"Sum: {add(a,b)}") 
